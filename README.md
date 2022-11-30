@@ -82,6 +82,28 @@ yarn test:coverage
 
 ## Details
 
+## Folder Structure
+
+```
+.
+├── public                        # Express server static path and Webpack bundles output
+│   ├── favicon.ico               # App favicon
+│   ├── logo192.png               # App logo small
+│   ├── logo512.png               # App logo large
+│   └── manifest.json             # App favicon and logo manifest
+├── src                           # App source code
+│   ├── config                    # App configuration by environments
+│   ├── app                    	  # App root component
+│   ├── components                # Reusable components
+│   ├── pages                     # Page components
+│   ├── layouts                   # Layouts available to the whole project (e.g. footer etc.)
+│   ├── utils                     # App-wide utils (e.g. mock store creator for testing etc.)
+│   ├── static                    # Static assets (e.g. images, fonts etc.)
+│   └── routes                    # Routes configuration for both client-side and server-side
+├── webpack*                      # Webpack configurations
+├── tsconfig.json                 # TypeScript configuration
+└── .eslintrc.*                   # ESLint configuration
+```
 
 ## Supported Browsers
 
