@@ -113,23 +113,14 @@ The default list of supported browsers is listed in the `package.json` file:
 
 ```json
 {
-	"browserslist": {
-		"production": [
-			">0.2%",
-			"not dead",
-			"not op_mini all"
-		],
-		"development": [
-			"last 1 chrome version",
-			"last 1 firefox version",
-			"last 1 safari version"
-		]
-	},
+  "browserslist": {
+    "production": [">0.2%", "not dead", "not op_mini all"],
+    "development": ["last 1 chrome version", "last 1 firefox version", "last 1 safari version"]
+  }
 }
 ```
 
 This means that supported browsers vary based on current usage data.
-
 
 ## License
 
